@@ -1,0 +1,27 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+
+# Node modules
+node_modules/
+
+# Logs
+*.log
+
+# External repo
+colab-mcp/
+
+# Local configs
+.gemini/settings.json
+.mcp.json
+
+# Media files
+*.mp4
+
+# VS Code settings
+.vscode/
