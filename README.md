@@ -114,15 +114,8 @@ pip install uv
 
 ---
 
-## 4️⃣ Clone the Colab MCP server
 
-```bash
-git clone https://github.com/googlecolab/colab-mcp.git
-```
-
----
-
-## 5️⃣ Configure MCP for Gemini
+## 4️⃣ Configure MCP for Gemini
 
 Create:
 
