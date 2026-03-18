@@ -194,17 +194,6 @@ This allows Gemini to become a **multi-tool AI agent system**.
 
 ---
 
-# 🤝 Contributing
-
-Contributions are welcome.
-
-Steps:
-
-1. Fork the repository
-2. Create a new branch
-3. Submit a pull request
-
----
 
 # 📜 License
 
@@ -220,9 +209,4 @@ MIT License
 
 ---
 
-⭐ If you find this project useful, consider **starring the repository**.
 
-```
-
-If you want, I can also show you **how to add GitHub badges (build, stars, forks, license)** so your repo looks **like a professional open-source AI project**.
-```
