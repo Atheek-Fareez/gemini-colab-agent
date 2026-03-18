@@ -1,46 +1,57 @@
-🚀 Gemini Colab Agent
 
-A powerful AI agent setup connecting Gemini CLI with Google Colab through the Model Context Protocol (MCP).
+# 🚀 Gemini Colab Agent
 
-This project enables Gemini to interact with a Colab notebook as an automated workspace, allowing the agent to:
+A powerful **AI agent setup** connecting **Gemini CLI** with **Google Colab** through the **Model Context Protocol (MCP)**.
 
-create notebook cells
+This project enables Gemini to interact with a **Colab notebook as an automated workspace**, allowing the agent to:
 
-run Python code
+- Create notebook cells
+- Run Python code
+- Install dependencies
+- Generate analysis
+- Automate research workflows
 
-install dependencies
+---
 
-generate analysis
+# 🧠 Architecture
 
-automate research workflows
+```
 
-🧠 Architecture
 User (Terminal)
-      │
-      ▼
+│
+▼
 🤖 Gemini CLI (AI Agent)
-      │
-      ▼
+│
+▼
 🔗 Model Context Protocol (MCP)
-      │
-      ▼
+│
+▼
 ⚙️ Colab MCP Server
-      │
-      ▼
+│
+▼
 ☁️ Google Colab Runtime
 
-The agent sends commands through MCP to execute code directly in Google Colab's cloud environment.
+```
 
-✨ Features
+The agent sends commands through MCP to execute code directly in **Google Colab's cloud environment**.
 
-🔥 AI-powered notebook automation
-⚡ Cloud code execution with Colab
-🧠 Gemini CLI as intelligent agent
-🔧 MCP tool integration
-📦 Modular and extensible architecture
-🚀 Easy setup and lightweight environment
+---
 
-📂 Project Structure
+# ✨ Features
+
+- 🔥 AI-powered notebook automation  
+- ⚡ Cloud code execution with Colab  
+- 🧠 Gemini CLI as intelligent agent  
+- 🔧 MCP tool integration  
+- 📦 Modular and extensible architecture  
+- 🚀 Easy setup and lightweight environment  
+
+---
+
+# 📂 Project Structure
+
+```
+
 gemini-colab-agent
 │
 ├── .gemini/
@@ -53,42 +64,75 @@ gemini-colab-agent
 │
 ├── README.md
 └── .gitignore
-🛠 Requirements
+
+````
+
+---
+
+# 🛠 Requirements
 
 Before running the project install:
 
-Python 3.10+
+- Python 3.10+
+- Node.js
+- npm
+- Git
+- uv (Python package manager)
 
-Node.js
+---
 
-npm
+# ⚙️ Installation
 
-Git
+## 1️⃣ Clone the repository
 
-uv (Python package manager)
-
-⚙️ Installation
-1️⃣ Clone the repository
+```bash
 git clone https://github.com/Atheek-Fareez/gemini-colab-agent.git
 cd gemini-colab-agent
-2️⃣ Install Gemini CLI
+````
+
+---
+
+## 2️⃣ Install Gemini CLI
+
+```bash
 npm install -g @google/gemini-cli
+```
 
 Verify installation:
 
+```bash
 gemini --version
-3️⃣ Install uv
+```
+
+---
+
+## 3️⃣ Install uv
+
+```bash
 pip install uv
-4️⃣ Clone the Colab MCP server
+```
+
+---
+
+## 4️⃣ Clone the Colab MCP server
+
+```bash
 git clone https://github.com/googlecolab/colab-mcp.git
-5️⃣ Configure MCP for Gemini
+```
+
+---
+
+## 5️⃣ Configure MCP for Gemini
 
 Create:
 
+```
 .gemini/settings.json
+```
 
 Example configuration:
 
+```json
 {
   "mcpServers": {
     "colab-mcp": {
@@ -99,75 +143,93 @@ Example configuration:
     }
   }
 }
+```
 
-This configuration allows Gemini to automatically start the Colab MCP server.
+This configuration allows Gemini to automatically start the **Colab MCP server**.
 
-▶️ Running the Agent
+---
+
+# ▶️ Running the Agent
 
 Start the AI agent:
 
+```bash
 gemini
+```
 
 Gemini will automatically load the MCP server and connect to Colab.
 
-💡 Example Prompt
+---
+
+# 💡 Example Prompt
 
 Try asking Gemini:
 
+```
 Create a markdown cell that says "Colab MCP test".
 Then create a Python cell that prints "Hello from Colab MCP".
 Execute the cell.
+```
 
 Gemini will interact with the notebook through MCP.
 
-🔥 Use Cases
+---
+
+# 🔥 Use Cases
 
 This project can be used for:
 
-📊 automated data analysis
-🧪 machine learning experimentation
-📚 research notebook generation
-⚡ rapid prototyping
-🤖 AI-powered development workflows
+* 📊 Automated data analysis
+* 🧪 Machine learning experimentation
+* 📚 Research notebook generation
+* ⚡ Rapid prototyping
+* 🤖 AI-powered development workflows
 
-🧩 Extending the Agent
+---
+
+# 🧩 Extending the Agent
 
 You can add additional MCP tools:
 
-filesystem MCP
+* Filesystem MCP
+* Browser MCP
+* Database MCP
+* API MCP
+* Web automation tools
 
-browser MCP
+This allows Gemini to become a **multi-tool AI agent system**.
 
-database MCP
+---
 
-API MCP
-
-web automation tools
-
-This allows Gemini to become a multi-tool AI agent system.
-
-🤝 Contributing
+# 🤝 Contributing
 
 Contributions are welcome.
 
 Steps:
 
-Fork the repository
+1. Fork the repository
+2. Create a new branch
+3. Submit a pull request
 
-Create a new branch
+---
 
-Submit a pull request
-
-📜 License
+# 📜 License
 
 MIT License
 
-🙌 Acknowledgements
+---
 
-Google Gemini CLI
+# 🙌 Acknowledgements
 
-Google Colab
+* Google Gemini CLI
+* Google Colab
+* Model Context Protocol (MCP)
 
-Model Context Protocol (MCP)
+---
 
-⭐ If you find this project useful, consider starring the repository.
+⭐ If you find this project useful, consider **starring the repository**.
+
+```
+
+If you want, I can also show you **how to add GitHub badges (build, stars, forks, license)** so your repo looks **like a professional open-source AI project**.
+```
